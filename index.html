@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachel Sunarko - Portfolio</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1, h2, h3 {
+      color: #111;
+    }
+    h1 { margin-bottom: 0.5rem; }
+    h2 { border-bottom: 1px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem; }
+    h3 { margin-top: 1.5rem; margin-bottom: 0.2rem; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img.avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 1rem 0;
+    }
+    hr { border: 0; border-top: 1px solid #eee; margin: 2rem 0; }
+    ul { padding-left: 1.5rem; margin-top: 0.5rem; }
+    .contact-links a { margin-right: 1rem; }
+    .project-role { font-style: italic; margin-top: 0; font-size: 0.9em; color: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="/" style="color: black;">Rachel Sunarko</a></h1>
+    <img class="avatar" src="avatar.jpg" alt="Rachel Sunarko">
+    <p>
+      Data Science undergraduate at Universitas Airlangga (2023-2027), with internship experience in data science and engineering. I build end-to-end ETL pipelines, design OLAP warehouses, train NLP and computer vision models, and turn raw data into decision-ready dashboards. Outside of data I play piano and cello in the Airlangga Orchestra.
+    </p>
+    <p class="contact-links">
+      <a href="mailto:sunarkorachel@gmail.com">Email</a>
+      <a href="https://github.com/rachelscssrhnd">GitHub</a>
+      <a href="https://www.linkedin.com/in/rachelscssrhnd/">LinkedIn</a>
+      <a href="Rachel_Sunarko_CV.pdf">Download CV</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Selected Projects</h2>
+    
+    <h3>Orchestra Member ETL Pipeline & Analytics Dashboard</h3>
+    <p class="project-role">Data Engineering Portfolio Project</p>
+    <p>Containerised end-to-end ETL pipeline processing orchestra membership data across faculties and instrument sections. Star Schema data warehouse with staging and warehouse layers. Airflow DAG with 6 sequential tasks, XCom metadata passing, retry policies, and pipeline run logging. 20+ pytest unit tests. Metabase dashboard for member composition insights.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/Apache%20Airflow-white?logo=Apache%20Airflow" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-white?logo=PostgreSQL" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Python-white?logo=Python" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Docker-white?logo=Docker" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Metabase-white?logo=Metabase" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Star%20Schema-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/pytest-white?logo=pytest" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd">View Project</a></p>
+    <hr>
+
+    <h3>E-Clinic Lab Healthcare Laboratory Information System</h3>
+    <p class="project-role">Advanced Database Final Project</p>
+    <p>Relational OLTP database and OLAP data warehouse supporting multi-branch lab operations and analytical reporting. Designed normalised MySQL schemas, architected the OLTP-OLAP separation, and built Pentaho ETL pipelines with data quality checks. Delivered dashboards monitoring branch-level KPIs and operational trends.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/MySQL-white?logo=MySQL" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Pentaho-white?logo=Pentaho" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/OLTP--OLAP-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/ETL-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Data%20Modelling-white" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd/E-Clinic-Lab-Healthcare-Laboratory-Information-System">View Project</a></p>
+    <hr>
+
+    <h3>PPOB Business Dashboard Sales Analytics & Scenario Simulator</h3>
+    <p class="project-role">Data Scientist Intern at PT Digital Mediatama Maxima Tbk.</p>
+    <p>End-to-end sales performance analysis for a PPOB business. Generated a realistic synthetic transaction dataset (Python/Pandas) simulating product categories, brands, and agent stores with seasonality. Built a relational Power BI data model with custom DAX measures and an interactive Streamlit scenario simulator for configurable business assumptions.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/Python-white?logo=Python" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/pandas-white?logo=pandas" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Power%20BI-white?logo=Power%20BI" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/DAX-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Streamlit-white?logo=Streamlit" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Synthetic%20Data-white" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd/PPOB-Business-Dashboard">View Project</a></p>
+    <hr>
+
+    <h3>Ministry of Tourism Digital Promotion Effectiveness Analysis</h3>
+    <p class="project-role">Data Science Consulting Course</p>
+    <p>Consulting-style analysis for a real case from Kementerian Pariwisata: which digital channels most effectively reach investors, what content characteristics drive engagement, and how to increase digital exposure. Used Mann-Whitney U tests, Investment Gap Matrix, and LAKIN 2025 benchmarking. Delivered dashboard and strategy deck to Kemenpar representatives.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/EDA-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Mann--Whitney%20U-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Tableau-white?logo=Tableau" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Client%20Consulting-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Statistical%20Analysis-white" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd/Analisis-Efektivitas-Promosi-Digital-Konten-Investasi-Pariwisata-Kemenpar">View Project</a></p>
+    <hr>
+
+    <h3>UNESCO SDG Education & Health Clustering Analysis</h3>
+    <p class="project-role">IMILKOM USU IT Competition 2025 (3rd Place)</p>
+    <p>Clustering-based analysis of how 34 Indonesian provinces implemented UNESCO's Education for Health and Well-being strategy (2012-2023). Consolidated multi-source indicators (BPS, SDG reports, Profil Pendidikan), applied PCA and K-Means clustering, and built a Tableau dashboard visualising region-based implementation patterns.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/PCA-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/K--Means-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Tableau-white?logo=Tableau" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Data%20Consolidation-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Python-white?logo=Python" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd/Analisis-Penerapan-Strategy-on-Education-for-Health-and-Well-being-UNESCO-dengan-Indikator-SDG-di-In">View Project</a></p>
+    <hr>
+
+    <h3>Document Checker Multi-Model NLP Similarity Web App</h3>
+    <p class="project-role">NLP Final Project</p>
+    <p>Web-based document comparison system for 2 to 10 documents simultaneously across PDF, DOCX, TXT, and image (OCR) formats. Integrated NLP pipeline with text extraction, preprocessing, and pairwise similarity using statistical, textual, and Transformer-based embedding methods.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/Python-white?logo=Python" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/NLP-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Transformers-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/OCR-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Web%20App-white" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd">View Project</a></p>
+    <hr>
+
+    <h3>Graphic Design Portfolio Infographic & Visual Storytelling</h3>
+    <p class="project-role">National Competitions</p>
+    <p>Data-driven infographic and visual design projects submitted to national competitions including a Top 10 national finalist infographic on Digital Transformation of Indonesian Railway Services toward 2045 (4C Competition, UB) and the Best Infographic at Airnology 3.0 on green hydrogen as a clean energy solution.</p>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/Adobe%20Illustrator-white?logo=Adobe%20Illustrator" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Adobe%20InDesign-white?logo=Adobe%20InDesign" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Canva-white?logo=Canva" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Data%20Storytelling-white" alt=""></a>
+      <a href="#"><img src="https://img.shields.io/badge/Visual%20Narrative-white" alt=""></a>
+    </p>
+    <p><a href="https://github.com/rachelscssrhnd/Graphic-Design-Portfolio">View Project</a></p>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    
+    <h3>Data Scientist Intern</h3>
+    <p class="project-role">PT Digital Mediatama Maxima Tbk. (DMMX) | Jul - Aug 2026</p>
+    <ul>
+      <li>Analysed DMMX's PPOB business to identify key sales performance drivers.</li>
+      <li>Generated realistic synthetic transaction dataset with Python/Pandas.</li>
+      <li>Built Power BI dashboard and interactive Streamlit scenario simulator.</li>
+    </ul>
+
+    <h3>Data Scientist Intern</h3>
+    <p class="project-role">Center for Environmental, Social, and Governance Studies (CESGS) | Dec 2025 - Present</p>
+    <ul>
+      <li>Large-scale web scraping of thousands of PDFs via Google Drive API.</li>
+      <li>Used OpenAI API for extraction, summarisation, normalisation, and metadata generation.</li>
+      <li>Built document indexing with Zilliz (Milvus Vector DB) for semantic search.</li>
+      <li>Developed SDG logo detection system using Roboflow CV pipelines.</li>
+    </ul>
+
+    <h3>Data Analyst Intern</h3>
+    <p class="project-role">SDG Center UNAIR & Surabaya City Government | Jun - Sep 2025</p>
+    <ul>
+      <li>Collected and validated SDGs data for official collaboration reports; managed structured datasets for inter-institutional documentation.</li>
+    </ul>
+
+    <h3>Teaching Assistant Algorithmic Programming I</h3>
+    <p class="project-role">FTMM, Universitas Airlangga | 2025</p>
+    <ul>
+      <li>Assisted 60+ students in Python; guided variables, control flow, loops, functions, and data structures. One-on-one mentoring in practical sessions.</li>
+    </ul>
+
+    <h3>Researcher</h3>
+    <p class="project-role">IRIS Research Group | 2023 - 2024</p>
+    <ul>
+      <li>Financial sentiment analysis on Yahoo Finance news data; web scraping with Selenium for dynamic headlines and timestamps.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    
+    <h3>B.Sc. Data Science Technology</h3>
+    <p class="project-role">Universitas Airlangga | 2023 - 2027</p>
+    <ul>
+      <li>Faculty Representative SMARTA 2025 Outbound Program to Universiti Malaya</li>
+      <li>Presenter SMARTA 2025 Inbound Program (UM and Nanyang Polytechnic participants)</li>
+      <li>Representative Data Science Major for Faculty Most Outstanding Student Selection (2025)</li>
+      <li>Finalist Most Outstanding Student, FTMM (2025)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, SQL, R, C++, HTML/CSS, JavaScript</li>
+      <li><strong>Data Engineering:</strong> Apache Airflow, PostgreSQL, MySQL, Pentaho PDI, Docker, Milvus / Zilliz, ETL Design, Star Schema</li>
+      <li><strong>Analytics & BI:</strong> Power BI, Tableau, Metabase, Streamlit, Excel, Jupyter, Google Colab, QGIS</li>
+      <li><strong>ML / AI / NLP:</strong> Scikit-learn, Transformers / BERT, Roboflow (CV), OpenAI API, K-Means / PCA, OLS Regression, Google Drive API</li>
+      <li><strong>Design & Multimedia:</strong> Adobe Illustrator, Adobe Premiere, After Effects, InDesign, Figma, Canva</li>
+      <li><strong>Other:</strong> Git / GitHub, pytest, Web Scraping, Selenium, English (TOEFL 630), Piano & Cello</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Competitions & Certifications</h2>
+    <ul>
+      <li><strong>3rd Place</strong> National Data Analytic Competition EPSILON 2025, Universitas Negeri Padang (2025)</li>
+      <li><strong>3rd Place</strong> IMILKOM USU IT Competition 2025, Universitas Sumatera Utara (2025)</li>
+      <li><strong>Finalist (Top 5)</strong> TECHFEST 2025 Data Analytics, Universitas Bina Nusantara (2025)</li>
+      <li><strong>Finalist</strong> Most Outstanding Student, FTMM UNAIR (2025)</li>
+      <li><strong>Finalist (Top 10)</strong> 4C National Competition, Infographic Category, Universitas Brawijaya (2024)</li>
+      <li><strong>Best Infographic</strong> Visual Quest, Airnology 3.0, Universitas Airlangga (2024)</li>
+      <li><strong>Certification</strong> Deloitte Australia Data Analytics Job Simulation, Forage (Feb 2026)</li>
+      <li><strong>Certification</strong> Tata Data Visualisation Job Simulation, Forage (Feb 2026)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <hr>
+    <p><small>Rachel Sunarko | <a href="https://github.com/rachelscssrhnd">github.com/rachelscssrhnd</a> | Hosted on GitHub Pages</small></p>
+  </footer>
+</body>
+</html>
